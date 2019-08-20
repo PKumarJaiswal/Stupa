@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Hybrid Data Driver - IFix" >
+<listeners>
+	<listener class-name="com.extentreport.ExtentReportListener" />
+</listeners>
+	<test name="IFix">
+		<classes>
+			<class name="com.testcases.LoginPageTest"></class>
+			<class name="com.testcases.LandingHomePageTest"></class>
+			<class name="com.testcases.CreateTicketPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
+
+

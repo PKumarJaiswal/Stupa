@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.testcases.LoginPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="formheading"/>
+          <include name="loginPageTitle"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.LoginPageTest -->
+      <class name="com.testcases.CreateTicketPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validateCreate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.CreateTicketPageTest -->
+      <class name="com.testcases.LandingHomePageTest">
+        <methods>
+          <include name="userName"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="verifyCreateTicketLink"/>
+          <include name="closeBrowser"/>
+          <include name="loginPageTitle"/>
+        </methods>
+      </class> <!-- com.testcases.LandingHomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
